@@ -17,7 +17,7 @@ public:
             else if(arr[mid-1]< arr[mid]){
                 s=mid + 1;
             }
-            else if(arr[mid] > arr[mid+1]){
+            else {
                 e=mid - 1;
             }
         }
